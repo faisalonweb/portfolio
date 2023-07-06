@@ -1,8 +1,8 @@
-import Hero from "./scene/Hero";
-import About from "@/components/About";
-import Experience from "@/components/Experience";
-import Work from "@/components/Work";
-import GetInTouch from "@/components/GetInTouch";
+import Hero from './scene/Hero'
+import About from '@/components/About'
+import Experience from '@/components/Experience'
+import Work from '@/components/Work'
+import GetInTouch from '@/components/GetInTouch'
 
 export default function Home() {
   return (
@@ -13,5 +13,5 @@ export default function Home() {
       <Work />
       <GetInTouch />
     </main>
-  );
+  )
 }
