@@ -43,7 +43,7 @@ export default function Navbar() {
           </Link>
           <Link to='contact' spy={true} smooth={true} offset={-100} duration={500}>
             <span className='text-xs'>04. </span>
-            <span className='text-gray-500 text-xs'>Contacts</span>
+            <span className='text-gray-500 text-xs'>Contact</span>
           </Link>
           <button className='px-1 py-1 text-xs rounded border border-gray-600'>Resume</button>
 
