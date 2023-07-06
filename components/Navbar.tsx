@@ -45,9 +45,7 @@ export default function Navbar() {
             <span className='text-xs'>04. </span>
             <span className='text-gray-500 text-xs'>Contact</span>
           </Link>
-          <button className='px-1 py-1 text-xs rounded border border-gray-600' onClick={() => {}}>
-            Resume
-          </button>
+          <button className='px-1 py-1 text-xs rounded border border-gray-600'>Resume</button>
 
           <div className='rounded-full bg-gray-300 p-2 z-[999999]'>
             {drop ? (

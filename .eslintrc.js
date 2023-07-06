@@ -27,9 +27,9 @@ module.exports = {
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
-    'camelcase': 'error',
+    camelcase: 'error',
     'spaced-comment': 'error',
-    'quotes': ['error', 'single'],
-    'no-duplicate-imports': 'error' // Add custom ESLint rules or overrides here
+    quotes: ['error', 'single'],
+    'no-duplicate-imports': 'error', // Add custom ESLint rules or overrides here
   },
 }
