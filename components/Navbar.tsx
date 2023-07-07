@@ -1,11 +1,11 @@
 'use client'
 
 // import Link from "next/link";
-import { RxHamburgerMenu } from 'react-icons/rx'
+// import { RxHamburgerMenu } from 'react-icons/rx'
 // import Button from './Button'
 import { useState } from 'react'
 import DropMenu from './DropMenu'
-import { GrFormClose } from 'react-icons/gr'
+// import { GrFormClose } from 'react-icons/gr'
 // import { motion, useCycle } from 'framer-motion'
 import { Link } from 'react-scroll'
 
@@ -47,7 +47,7 @@ export default function Navbar() {
           </Link>
           <button className='px-1 py-1 text-xs rounded border border-gray-600'>Resume</button>
 
-          <div className='rounded-full bg-gray-300 p-2 z-[999999]'>
+          {/* <div className='rounded-full bg-gray-300 p-2 z-[999999]'>
             {drop ? (
               <GrFormClose
                 className='text-[1.5rem] cursor-pointer'
@@ -59,7 +59,7 @@ export default function Navbar() {
                 onClick={() => setDrop(!drop)}
               />
             )}
-          </div>
+          </div> */}
         </div>
       </div>
 
