@@ -9,8 +9,8 @@ import Link from 'next/link'
 interface Hero {
   textEnter: () => void
   textLeave: () => void
-  variants: unknown
-  cursorVariant: unknown
+  variants: any
+  cursorVariant: any
 }
 
 export default function Hero() {
@@ -21,7 +21,7 @@ export default function Hero() {
   const [cursorVariant, setCursorVariant] = useState('default')
 
   useEffect(() => {
-    const mouseMove = (e: unknown) => {
+    const mouseMove = (e: any) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY,
@@ -35,7 +35,7 @@ export default function Hero() {
     }
   }, [])
 
-  const variant: unknown = {
+  const variant: any = {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
