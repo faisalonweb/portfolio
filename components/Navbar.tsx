@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header>
       <div className='flex items-center justify-between px-6 py-6 cursor-default'>
-        <Link className='uppercase text-[1.5rem] z-50 ml-4' href='/'>
+        <Link to='about' className='uppercase text-[1.5rem] z-50 ml-4' href='/'>
           <Image src='/logo.png' width={50} height={50} alt='img' />
         </Link>
 
