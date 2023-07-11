@@ -4,17 +4,17 @@ import Image from 'next/image'
 
 const Work = () => {
   return (
-    <div className='  px-[20%] items-center mt-[300px]' id='work'>
+    <div className='px-[20%] items-center md:mt-[300px] mt-[500px]' id='work'>
       <div className='flex w-full'>
         <span className='text-xs mt-1'>03. </span>
         <span className='font-bold pl-1'> Some Things I’ve Worked on</span>
         <span className='border-b border-gray-300 mt-4 mb-4 w-1/2 ml-5'></span>
       </div>
-      <div className='relative'>
-        <div>
+      <div className='relative  mt-[100px]'>
+        <div className='md:block hidden'>
           <Image src='/vfse.png' width={500} height={500} alt='img' />
         </div>
-        <div className='absolute top-0 right-0'>
+        <div className='md:absolute top-0 right-0'>
           <p className='text-gray-500 text-[15px] flex justify-end font-bold'>Featured Project</p>
           <p className='flex justify-end font-bold'>VFSE</p>
           <div className='block max-w-sm p-6 mt-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 z-100'>
@@ -32,10 +32,10 @@ const Work = () => {
         </div>
       </div>
       <div className='relative mt-[100px]'>
-        <div>
+        <div className='md:block hidden'>
           <Image src='/starzplay.png' width={500} height={500} alt='img' />
         </div>
-        <div className='absolute top-0 right-0'>
+        <div className='md:absolute top-0 right-0'>
           <p className='text-gray-500 text-[15px] flex justify-end font-bold'>Featured Project</p>
           <p className='flex justify-end font-bold'>STARZPLAY</p>
           <div className='block max-w-sm p-6 mt-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 z-100'>
@@ -48,10 +48,10 @@ const Work = () => {
         </div>
       </div>
       <div className='relative mt-[100px]'>
-        <div>
+        <div className='md:block hidden'>
           <Image src='/unation.png' width={500} height={500} alt='img' />
         </div>
-        <div className='absolute top-0 right-0'>
+        <div className='md:absolute top-0 right-0'>
           <p className='text-gray-500 text-[15px] flex justify-end font-bold'>Featured Project</p>
           <p className='flex justify-end font-bold'>UNATION</p>
           <div className='block max-w-sm p-6 mt-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 z-100'>
@@ -69,10 +69,10 @@ const Work = () => {
         </div>
       </div>
       <div className='relative mt-[100px]'>
-        <div>
+        <div className='md:block hidden'>
           <Image src='/conch.png' width={500} height={500} alt='img' />
         </div>
-        <div className='absolute top-0 right-0'>
+        <div className='md:absolute top-0 right-0'>
           <p className='text-gray-500 text-[15px] flex justify-end font-bold'>Featured Project</p>
           <p className='flex justify-end font-bold'>CONCH AI</p>
           <div className='block max-w-sm p-6 mt-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 z-100'>

@@ -10,7 +10,7 @@ const GetInTouch = () => {
         <span className='font-bold pl-1'> Get In Touch</span>
       </div>
       <div className='flex flex-col items-center justify-center'>
-        <p className='text-[11px] px-[220px] pt-[20px] text-gray-500 '>
+        <p className='text-[11px] lg:px-[220px] px-[30px] pt-[20px] text-gray-500 '>
           I’m currently looking for any new opportunities, my inbox is always open. Whether you have
           a question or just want to say hi, I’ll try my best to get back to you!
         </p>
@@ -18,7 +18,7 @@ const GetInTouch = () => {
           href={'mailto:faisalusman390@gmail.com'}
           target='_blank'
           rel='noreferrer'
-          className=' flex justify-center items-center px-1 mt-8 w-[15%] py-3 text-xs rounded border border-gray-600'
+          className=' flex justify-center items-center w-[80px] mt-8 h-[40px]  text-xs rounded border border-gray-600'
         >
           <button>Say Hello!</button>
         </a>

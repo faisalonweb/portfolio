@@ -15,25 +15,16 @@ const About = () => {
       <div className='flex'>
         <div className='grow basis-0'>
           <p className='text-[11px]  text-gray-500'>
-            I am an accomplished React Frontend Developer with a passion for building exceptional
-            user interfaces and interactive web applications. With 2+ years of experience, I have
-            honed my skills in leveraging the power of React.js and its ecosystem to create elegant
-            and scalable solutions. My expertise lies in translating design concepts and wireframes
-            into pixel-perfect UIs that offer seamless user experiences. I possess an in-depth
-            understanding of HTML5, CSS3, and JavaScript, allowing me to craft clean and efficient
-            code. Proficient in React Router, Redux, and JSX, I excel at managing application states
-            and ensuring smooth data flow. I thrive in collaborative environments and have a proven
-            track record of working closely with cross-functional teams, including designers and
-            backend developers, to deliver high-quality products. I am skilled in integrating
-            RESTful APIs, optimizing performance, and ensuring cross-browser compatibility. With a
-            meticulous eye for detail, I am committed to writing modular and maintainable code that
-            adheres to industry best practices. I continuously stay updated with emerging
-            technologies and trends in the frontend development space, incorporating innovative
-            solutions into my work. A natural problem solver, I embrace challenges with enthusiasm
-            and approach them with analytical thinking and creativity. I am an effective
-            communicator and a reliable team player, capable of providing constructive feedback and
-            mentoring junior developers. Here are a few technologies I’ve been working with
-            recently:
+            I am an experienced React Frontend Developer specializing in creating exceptional user
+            interfaces and interactive web applications. With 2+ years of experience, I have
+            mastered React.js and its ecosystem to build elegant and scalable solutions. My skills
+            include translating designs into pixel-perfect UIs, proficiently using HTML5, CSS3, and
+            JavaScript, and managing application states with React Router, Redux, and JSX. I have a
+            collaborative approach, working closely with cross-functional teams to deliver
+            high-quality products. I excel in integrating APIs, optimizing performance, and ensuring
+            cross-browser compatibility. With a meticulous eye for detail and a passion for staying
+            updated with emerging technologies, I write modular and maintainable code.. Here are a
+            few technologies I’ve been working with recently:
           </p>
           <div className='flex mt-4 ml-5'>
             <div>
@@ -78,7 +69,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='grow basis-0'>
+        <div className='md:block hidden grow basis-0'>
           <Image src='/logo.png' width={500} height={500} alt='img' />
         </div>
       </div>

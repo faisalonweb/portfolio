@@ -20,10 +20,10 @@ export default function DropMenu({ setDrop }: Bol) {
       onClick={() => setDrop(false)}
     >
       <nav className='flex flex-col'>
-        <ul className='min-h-[40rem] rounded-3xl lg:min-h-[30rem] h-[100%] flex flex-wrap lg:flex-nowrap uppercase text-center text-[1.7rem]'>
+        <ul className='flex flex-col justify-around min-h-[40rem] rounded-3xl uppercase text-center text-[1.7rem]'>
           {NavLinks.map((item) => (
             <div key={item.name}>
-              <Links name={item.name} path={item.path} last={item.last} />
+              <Links name={item.name} last={item.last} />
             </div>
           ))}
         </ul>
