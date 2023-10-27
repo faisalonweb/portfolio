@@ -16,7 +16,7 @@ const About = () => {
         <div className='grow basis-0'>
           <p className='text-[11px]  text-gray-500'>
             I am an experienced React Frontend Developer specializing in creating exceptional user
-            interfaces and interactive web applications. With 2+ years of experience, I have
+            interfaces and interactive web applications. With 1.5+ years of experience, I have
             mastered React.js and its ecosystem to build elegant and scalable solutions. My skills
             include translating designs into pixel-perfect UIs, proficiently using HTML5, CSS3, and
             JavaScript, and managing application states with React Router, Redux, and JSX. I have a

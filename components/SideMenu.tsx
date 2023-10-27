@@ -99,7 +99,7 @@ export default function SideMenu() {
         <div className='ml-0'>
           <span className=' text-gray-500 text-[16px] '>Frontend Developer</span>
           <span className='text-[16px]'>@Fecundity</span>
-          <p className=' text-gray-500 text-xs'>March 2021 - April 2022</p>
+          <p className=' text-gray-500 text-xs'>Dec 2021 - April 2022</p>
           <div className='flex  mt-2 '>
             <span className='mt-1'>
               <BiRightArrow size={8} />
